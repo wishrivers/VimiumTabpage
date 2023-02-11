@@ -1,0 +1,8 @@
+[submodule "HumbleNewTabPage"]
+	path = HumbleNewTabPage
+	url = https://github.com/wishrivers/HumbleNewTabPage.git
+	branch = vimtab
+[submodule "vimium"]
+	path = vimium
+	url = https://github.com/wishrivers/vimium.git
+	branch = vimtab
