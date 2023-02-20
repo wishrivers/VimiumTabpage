@@ -1,4 +1,4 @@
-# Vimium Tabpage
+# [Vimium Tabpage](https://github.com/wishrivers/VimiumTabpage)
 [Vimium](https://github.com/philc/vimium) is awesome, [HNTP](https://github.com/ibillingsley/HumbleNewTabPage) is awesome, too.
 but vimium cann't run on the HNTP tabpage. so, I merge them, let they works well. Finally, it looks like this:
 <!-- ![intro](snapshot/intro.webp) -->
