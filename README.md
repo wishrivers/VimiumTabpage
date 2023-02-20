@@ -2,23 +2,36 @@
 [Vimium](https://github.com/philc/vimium) is awesome, [HNTP](https://github.com/ibillingsley/HumbleNewTabPage) is awesome, too.
 but vimium cann't run on the HNTP tabpage. so, I merge them, let they works well. Finally, it looks like this:
 <!-- ![intro](snapshot/intro.webp) -->
-<img src="snapshot/intro.webp" width="1600px" />
+<div style="width:1600px;">
+    <img src="snapshot/intro.webp" />
+    <center><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fwishrivers%2FVimiumTabpage&count_bg=%23303030&title_bg=%23FFFFFF&icon=github.svg&icon_color=%23303030&title=.&edge_flat=false" /></center>
+</div>
 
 
 ## Install
 
-### 1. Git Clone
+### install VimiumTabpage.crx
+1. Download [VimiumTabpage.crx](https://github.com/wishrivers/VimiumTabpage/releases) to your computer.
+2. Open chrome extensions page: `chrome://extensions/` _( or `menu > More tools > Extensions`)_
+3. Enable `Developer Mode` _( toggle button in top-right corner )_, and __Press `F5`__ refresh the page.
+4. __Drag__ the _VimiumTabpage.crx_ extension file  _( crx file should likely be in your Downloads directory )_, and __Drop__ it into the _[Extensions](chrome://extensions/) window_ to install.
+    ![install](snapshot/install.webp "how to install VimiumTabpage.crx")
+5. `optional` Disable `Developer mode`
+
+### or Install from github
+
+#### 1. Git Clone
 ```bash
 git clone https://github.com/wishrivers/VimiumTabpage.git
 git submodule init
 git submodule update
 ```
 
-### 2. Chrome Install
-1. Open chrome extensions page: `chrome://extensions` OR chrome `menu > More tools > Extensions`
-2. Enable `Developer Mode` in the top-right corner.
-3. click `Load unpacked`, select the VimiumTabpage dir path: /path/to/VimiumTabpage
-4. Disable `Developer mode`
+#### 2. Chrome Install
+1. Open chrome extensions page: `chrome://extensions` _( or `menu > More tools > Extensions`)_
+2. Enable `Developer Mode` _( toggle button in top-right corner )_
+3. click `Load unpacked`, select the VimiumTabpage dir path: _/path/to/VimiumTabpage_
+4. `optional` Disable `Developer mode`
 
 
 ## Config
